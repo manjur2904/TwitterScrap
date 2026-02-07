@@ -1,0 +1,92 @@
+2026-02-07 10:47:51,710 | INFO     | main.py:38 (<module>) | ================================================================================
+2026-02-07 10:47:51,710 | INFO     | main.py:39 (<module>) | Twitter Scraper Pipeline Started
+2026-02-07 10:47:51,710 | INFO     | main.py:40 (<module>) | ================================================================================
+2026-02-07 10:47:55,703 | INFO     | main.py:51 (<module>) | Starting scraper (headless_mode=True)
+2026-02-07 10:47:57,556 | INFO     | main.py:53 (<module>) | Scraper initialized. Collecting up to 200 tweets...
+2026-02-07 10:48:07,277 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 8 tweets | Total collected: 0
+2026-02-07 10:48:11,886 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 12 tweets | Total collected: 8
+2026-02-07 10:48:17,050 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 12 tweets | Total collected: 20
+2026-02-07 10:48:22,267 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 16 tweets | Total collected: 32
+2026-02-07 10:48:26,486 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 17 tweets | Total collected: 48
+2026-02-07 10:48:32,081 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 18 tweets | Total collected: 65
+2026-02-07 10:48:36,458 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 83
+2026-02-07 10:48:41,247 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 96
+2026-02-07 10:48:45,601 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 14 tweets | Total collected: 109
+2026-02-07 10:48:50,029 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 123
+2026-02-07 10:48:54,732 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 11 tweets | Total collected: 136
+2026-02-07 10:48:59,023 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 147
+2026-02-07 10:49:03,043 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 12 tweets | Total collected: 160
+2026-02-07 10:49:06,961 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 12 tweets | Total collected: 172
+2026-02-07 10:49:11,553 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 11 tweets | Total collected: 184
+2026-02-07 10:49:16,834 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 195
+2026-02-07 10:49:42,718 | INFO     | main.py:56 (<module>) | Scraping completed. Collected 208 raw tweets.
+2026-02-07 10:49:44,926 | INFO     | main.py:58 (<module>) | Scraper session closed.
+2026-02-07 10:49:44,927 | INFO     | main.py:61 (<module>) | Starting text cleaning process...
+2026-02-07 10:49:44,956 | INFO     | main.py:64 (<module>) | Text cleaning completed for 208 tweets.
+2026-02-07 10:49:44,956 | INFO     | main.py:67 (<module>) | Starting deduplication (enabled=True)...
+2026-02-07 10:49:44,957 | INFO     | main.py:69 (<module>) | Deduplication completed. 200 unique tweets remaining (removed 8 duplicates).
+2026-02-07 10:49:44,957 | INFO     | main.py:72 (<module>) | Saving tweets to parquet file: tweets.parquet
+2026-02-07 10:49:44,987 | INFO     | main.py:74 (<module>) | Parquet file saved successfully (200 records).
+2026-02-07 10:49:44,988 | INFO     | main.py:77 (<module>) | Extracting valid text content...
+2026-02-07 10:49:44,988 | INFO     | main.py:79 (<module>) | Valid texts extracted: 200/200 (filtered 0 empty/whitespace-only).
+2026-02-07 10:49:44,988 | INFO     | main.py:85 (<module>) | Total tweets processed: 200
+2026-02-07 10:49:44,988 | INFO     | main.py:86 (<module>) | Valid texts for TF-IDF: 200
+2026-02-07 10:49:44,989 | INFO     | main.py:87 (<module>) | Sample cleaned tweets:
+2026-02-07 10:49:44,989 | INFO     | main.py:89 (<module>) |   [1] stocks to buy avoid m anyone holding cohance stoploss if breached exit it extrem...
+2026-02-07 10:49:44,989 | INFO     | main.py:89 (<module>) |   [2] trenqbix m japanese bonds will trigger the next bear market biggest collateral d...
+2026-02-07 10:49:44,989 | INFO     | main.py:89 (<module>) |   [3] m r capital m ready for a target of within next days itself
+2026-02-07 10:49:44,990 | INFO     | main.py:89 (<module>) |   [4] ashu m replying to please exit in between we can expect a rally after opening bu...
+2026-02-07 10:49:44,990 | INFO     | main.py:89 (<module>) |   [5] s n h trivedi m taparia tools ka share mil nae raha hai muje lena hai if availab...
+2026-02-07 10:52:28,821 | INFO     | main.py:40 (<module>) | ================================================================================
+2026-02-07 10:52:28,822 | INFO     | main.py:41 (<module>) | Twitter Scraper Pipeline Started
+2026-02-07 10:52:28,822 | INFO     | main.py:42 (<module>) | ================================================================================
+2026-02-07 10:52:32,685 | INFO     | main.py:53 (<module>) | Starting scraper (headless_mode=True)
+2026-02-07 10:52:34,505 | INFO     | main.py:55 (<module>) | Scraper initialized. Collecting up to 200 tweets...
+2026-02-07 10:52:46,424 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 9 tweets | Total collected: 0
+2026-02-07 10:52:50,101 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 11 tweets | Total collected: 9
+2026-02-07 10:52:55,243 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 12 tweets | Total collected: 20
+2026-02-07 10:52:59,603 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 16 tweets | Total collected: 32
+2026-02-07 10:53:04,590 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 17 tweets | Total collected: 48
+2026-02-07 10:53:09,363 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 18 tweets | Total collected: 65
+2026-02-07 10:53:15,095 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 83
+2026-02-07 10:53:19,298 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 96
+2026-02-07 10:53:24,549 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 14 tweets | Total collected: 109
+2026-02-07 10:53:29,784 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 13 tweets | Total collected: 123
+2026-02-07 10:53:34,362 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 7 tweets | Total collected: 136
+2026-02-07 10:54:00,597 | WARNING  | twitter_scraper.py:152 (scrape_tweets) | Timed out waiting for tweets to load for tag sensex — page title '(1) #sensex - Search / X'
+2026-02-07 10:54:00,638 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 0 tweets | Total collected: 143
+2026-02-07 10:54:03,665 | WARNING  | twitter_scraper.py:171 (scrape_tweets) | No tweet elements found for tag sensex — saving page snapshot.
+2026-02-07 10:54:27,522 | WARNING  | twitter_scraper.py:152 (scrape_tweets) | Timed out waiting for tweets to load for tag intraday — page title '(1) #intraday - Search / X'
+2026-02-07 10:54:27,540 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 0 tweets | Total collected: 143
+2026-02-07 10:54:30,565 | WARNING  | twitter_scraper.py:171 (scrape_tweets) | No tweet elements found for tag intraday — saving page snapshot.
+2026-02-07 10:54:53,209 | WARNING  | twitter_scraper.py:152 (scrape_tweets) | Timed out waiting for tweets to load for tag banknifty — page title '(1) #banknifty - Search / X'
+2026-02-07 10:54:53,257 | INFO     | twitter_scraper.py:163 (scrape_tweets) | Found 0 tweets | Total collected: 143
+2026-02-07 10:54:56,290 | WARNING  | twitter_scraper.py:171 (scrape_tweets) | No tweet elements found for tag banknifty — saving page snapshot.
+2026-02-07 10:54:56,518 | INFO     | main.py:58 (<module>) | Scraping completed. Collected 143 raw tweets.
+2026-02-07 10:54:58,702 | INFO     | main.py:60 (<module>) | Scraper session closed.
+2026-02-07 10:54:58,702 | INFO     | main.py:63 (<module>) | Starting text cleaning process...
+2026-02-07 10:54:58,714 | INFO     | main.py:66 (<module>) | Text cleaning completed for 143 tweets.
+2026-02-07 10:54:58,714 | INFO     | main.py:69 (<module>) | Starting deduplication (enabled=True)...
+2026-02-07 10:54:58,715 | INFO     | main.py:71 (<module>) | Deduplication completed. 140 unique tweets remaining (removed 3 duplicates).
+2026-02-07 10:54:58,715 | INFO     | main.py:74 (<module>) | Saving tweets to parquet file: tweets.parquet
+2026-02-07 10:54:58,729 | INFO     | main.py:76 (<module>) | Parquet file saved successfully (140 records).
+2026-02-07 10:54:58,729 | INFO     | main.py:79 (<module>) | Extracting valid text content...
+2026-02-07 10:54:58,729 | INFO     | main.py:81 (<module>) | Valid texts extracted: 140/140 (filtered 0 empty/whitespace-only).
+2026-02-07 10:54:58,729 | INFO     | main.py:87 (<module>) | Total tweets processed: 140
+2026-02-07 10:54:58,729 | INFO     | main.py:88 (<module>) | Valid texts for TF-IDF: 140
+2026-02-07 10:54:58,730 | INFO     | main.py:89 (<module>) | Sample cleaned tweets:
+2026-02-07 10:54:58,730 | INFO     | main.py:91 (<module>) |   [1] komal securities m ipo got approval for and it s trading into unlisted market ne...
+2026-02-07 10:54:58,730 | INFO     | main.py:91 (<module>) |   [2] stocks to buy avoid m anyone holding cohance stoploss if breached exit it extrem...
+2026-02-07 10:54:58,730 | INFO     | main.py:91 (<module>) |   [3] trenqbix m japanese bonds will trigger the next bear market biggest collateral d...
+2026-02-07 10:54:58,730 | INFO     | main.py:91 (<module>) |   [4] m r capital m ready for a target of within next days itself
+2026-02-07 10:54:58,730 | INFO     | main.py:91 (<module>) |   [5] ashu m replying to please exit in between we can expect a rally after opening bu...
+2026-02-07 10:54:58,730 | INFO     | main.py:94 (<module>) | Starting TF-IDF vectorization (max_features=3000, min_df=2)...
+2026-02-07 10:54:58,745 | INFO     | main.py:96 (<module>) | TF-IDF vectorization completed. Matrix shape: (140, 456)
+2026-02-07 10:54:58,746 | INFO     | main.py:99 (<module>) | Generating aggregated market signal...
+2026-02-07 10:54:58,746 | INFO     | main.py:101 (<module>) | Signal generation completed. Confidence (std): 0.007300
+2026-02-07 10:54:58,747 | INFO     | main.py:102 (<module>) | Signal vector shape: (456,)
+2026-02-07 10:54:58,747 | INFO     | main.py:105 (<module>) | Displaying streaming plot...
+2026-02-07 10:55:23,718 | INFO     | main.py:107 (<module>) | Plot closed.
+2026-02-07 10:55:23,718 | INFO     | main.py:109 (<module>) | ================================================================================
+2026-02-07 10:55:23,719 | INFO     | main.py:110 (<module>) | Twitter Scraper Pipeline Completed Successfully
+2026-02-07 10:55:23,719 | INFO     | main.py:111 (<module>) | ================================================================================
